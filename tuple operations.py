@@ -6,6 +6,6 @@ even = ()
 for i in t1:
   if i%2 == 0:
     even = even + (i,)
-    print(even)
+print(even)
 print(t1+t2, "\n")
 print("Minimum value is: ", min(t1+t2), "\n", "Maximum value is: ", max(t1+t2))
